@@ -1,5 +1,6 @@
 body{
 background-color: #f3f9eb !important;
+font-family: "calibri", sans-serif;
 }
 #navbar {
 background-color: #01ACC8;
@@ -23,22 +24,28 @@ float: left;
 }
 .search-round{
     margin-top: 23px;
-    margin-left: 165px;
+    margin-left: 150px;
+    margin-right: 25px;
 	border-radius:5px; 
     width: 400px;
     height: 40px;
 }
 #search{
-
 }
-.nav-right li{
-
+#mapview{
+margin-top: 5px;
+margin-left: 15px;
+float: right;
 }
 .sign-button{
 background-color: #03cae9;
 color: white;
-
-margin: 24px 10px;
+float:right;
+margin: 27px 10px;
 border-radius: 5px;
+
+}
+#sign-up{
+font-weight: bolder;
 
 }
