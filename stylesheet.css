@@ -108,26 +108,39 @@ body {
 /* Navbar styling End */
 
 /* Banner Styling Start */
-.banner {
-  position: relative;
-  margin-top:100px;
-  background: url(https://s3.ap-northeast-2.amazonaws.com/umapit/main_img02.jpg);
+.bannerText {
+  position: absolute;
   color: white;
-  height: 350px;
+  left: 0;
+  margin-top: 100px;
+  right: 0;
   text-align: center;
-  width: 100%;
+  z-index: 10;
 }
 
-.banner h1 {
+.bannerText h1 {
   font-size: 56px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7), -2px -2px 3px rgba(0, 0, 0, 0.7);
 }
 
-.banner p {
+.bannerText p {
   font-size: 24px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8), -1px -1px 3px rgba(0, 0, 0, 0.8);
 }
-/* Banner Styling End*/
+/* Rotating banner images start */
+.m_fade{
+  height: 350px;
+  left: -25px;
+  margin-top: 100px;
+  right: 0;
+	position: relative;
+  width: 1280px;
+  z-index: 0;
+}
+
+.m_fade ul {
+	list-style: none;
+}
 
 /*User Feed Styling Start*/
 .feed {
