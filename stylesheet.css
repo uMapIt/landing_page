@@ -1,119 +1,60 @@
+<html>
+<head>
+    <title>U MAPiT</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-body{
-  background-color: #f3f9eb !important;
-  font-family: "calibri", sans-serif;
-}
+</head>
+<body>
+<!-- navbar start -->
+    <nav id="navbar">
+        <div class="row">
+         <div id="" class="nav-wrapper navbar col-xs-12">
+           <img class="navbar-brand pull-*-left col-xs-3" id="logo" src="https://s3.ap-northeast-2.amazonaws.com/umapit/logowhite.png" />
+            <div class= "header-search col-xs-4">
+                <form id = "search">
+                    <span><input  type="text" class="search-round" placeholder="Search Maps..." required></span>
+                </form>
+            </div>
+            <div class="header-right col-xs-4">
+                <ul class="nav navbar-nav">
+                    <li><a id ="mapview" href=""><img id="mapicon" src="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_map.png"></a></li>
+                    <li><button class="btn sign-button" href="">Sign In</button></li>
+                    <li><button class="btn sign-button"  href=""><span id="sign-up">Sign Up</span></button></li>
+                </ul>
+            </div>
+         </div>
+        </div>
+    </nav>
+<!-- navbar end -->
+<!--Banner Start-->
+<div class='row'>
+  <div class='col-xs-12 banner'>
+    <h1>Go Map Yourself!</h1>
+    <p>a search engine built by and for travelers like you</p>
+  </div>
+</div>
+<!--Banner End-->
+<!-- User Feed Start --->
+<div class="row">
+    <div class="col-xs-12 feed">
+        <div class="feed-item col-xs-3"></div>
+        <div class="feed-item col-xs-3"></div>
+        <div class="feed-item col-xs-3"></div>
+    </div>
+</div>
+<!-- User Feed End --->
+<!--Footer Start-->
+    <div class='row footer'>
+      <span class='col-xs-6 cr'>&#169 2016 uMAPiT Team</span>
+      <span class='col-xs-6 rh'>
+        <a href='url' target='_blank'>Legal</a> | <a href='url' target='_blank'>Privacy</a> | <a href='url' target='_blank'>Contact</a>
+      </span>
+    </div>
+    <!--Footer End-->
 
-/* Navbar styling Start */
+</body>
 
-#navbar {
-    position : fixed;
-    width: 100%;
-    background-color: #01ACC8;
-    height: 100px;
-}
-
-#nav-wrapper{
-    position: relative;
-}
-
-#search{
-    margin-top: 23px;
-    margin-left: 100px;
-    margin-right: 25px;
-}
-
-.search-round{
-	border-radius:5px;
-    width: 400px;
-    height: 40px;
-}
-
-#sign-up{
-    font-weight: bolder;
-
-}
-
-.navbar-brand {
-  margin: -35px 10px ;
-  height: 160px !important;
-}
-
-.header-search {
-  position: relative;
-  float: left;
-}
-.header-right {
- margin-left: 85px;
-}
-
-#mapview {
-  margin-top: 5px;
-  margin-left: 15px;
-  margin-right: 30px;
-  float: right;
-}
-
-.sign-button{
-  background-color: #03cae9;
-  color: white;
-  float:right;
-  margin: 27px 10px;
-  border-radius: 5px;
-}
-/* Navbar styling End */
-
-/* Banner Styling Start */
-.banner {
-  position: relative;
-  margin-top:100px;
-  background: url(https://s3.ap-northeast-2.amazonaws.com/umapit/main_img02.jpg);
-  color: white;
-  height: 350px;
-  text-align: center;
-  width: 1280px;
-}
-
-.banner h1 {
-  font-size: 56px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-}
-
-.banner p {
-  font-size: 24px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-}
-/* Banner Styling End*/
-
-/* Footer Styling Start */
-.footer {
-  background-color: #01acc8;
-  bottom: 0;
-  color: white;
-  height: 65px;
-  left: 0;
-  margin: 0;
-  padding: 1%;
-  position: absolute;
-  right: 0;
-  text-decoration: none;
-}
-
-.footer a:link, a:active, a:visited {
-  color: #ade73a;
-  text-decoration: none;
-}
-
-.footer a:hover, a:focus {
-  text-decoration: underline;
-}
-
-.footer .cr {
-  font-weight: bold;
-}
-
-.footer .rh {
-  text-align: right;
-}
-
-
+</html>
