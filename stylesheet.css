@@ -1,0 +1,51 @@
+body{
+  background-color: #f3f9eb !important;
+  font-family: "calibri", sans-serif;
+}
+#navbar {
+  background-color: #01ACC8;
+  height: 13%;
+}
+#nav-wrapper{
+  position : fixed;
+}
+
+.navbar-brand {
+  margin: -35px 10px ;
+  height: 160px !important;
+}
+.header-search {
+  position: relative;
+  float: left;
+}
+
+.search-round{
+  margin-top: 23px;
+  margin-left: 150px;
+  margin-right: 25px;
+  border-radius:5px;
+  width: 400px;
+  height: 40px;
+}
+
+#search {
+
+}
+
+#mapview{
+  margin-top: 5px;
+  margin-left: 15px;
+  float: right;
+}
+
+.sign-button{
+  background-color: #03cae9;
+  color: white;
+  float:right;
+  margin: 27px 10px;
+  border-radius: 5px;
+}
+
+#sign-up{
+  font-weight: bolder;
+}
