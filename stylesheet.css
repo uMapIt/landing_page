@@ -28,6 +28,26 @@ body{
   border-radius: 5px;
 }
 
+/* Banner Styling Start */
+.banner {
+  background: url(https://s3.ap-northeast-2.amazonaws.com/umapit/main_img02.jpg);
+  color: white;
+  height: 350px;
+  text-align: center;
+  width: 1280px;
+}
+
+.banner h1 {
+  font-size: 56px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.banner p {
+  font-size: 24px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+/* Banner Styling End*/
+
 /* Footer Styling Start */
 .footer {
   background-color: #01acc8;
