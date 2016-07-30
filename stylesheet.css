@@ -1,22 +1,56 @@
 
-
 body{
   background-color: #f3f9eb !important;
   font-family: "calibri", sans-serif;
+}
+
+/* Navbar styling Start */
+
+#navbar {
+    position : fixed;
+    width: 100%;
+    background-color: #01ACC8;
+    height: 100px;
+}
+
+#nav-wrapper{
+    position: relative;
+}
+
+#search{
+    margin-top: 23px;
+    margin-left: 100px;
+    margin-right: 25px;
+}
+
+.search-round{
+	border-radius:5px;
+    width: 400px;
+    height: 40px;
+}
+
+#sign-up{
+    font-weight: bolder;
+
 }
 
 .navbar-brand {
   margin: -35px 10px ;
   height: 160px !important;
 }
+
 .header-search {
   position: relative;
   float: left;
+}
+.header-right {
+ margin-left: 85px;
 }
 
 #mapview {
   margin-top: 5px;
   margin-left: 15px;
+  margin-right: 30px;
   float: right;
 }
 
@@ -27,9 +61,12 @@ body{
   margin: 27px 10px;
   border-radius: 5px;
 }
+/* Navbar styling End */
 
 /* Banner Styling Start */
 .banner {
+  position: relative;
+  margin-top:100px;
   background: url(https://s3.ap-northeast-2.amazonaws.com/umapit/main_img02.jpg);
   color: white;
   height: 350px;
@@ -79,31 +116,4 @@ body{
   text-align: right;
 }
 
-/* Navbar styling Start */
 
-#navbar {
-    position : fixed;
-    width: 100%;
-    background-color: #01ACC8;
-    height: 13%;
-}
-
-#nav-wrapper{
-    position: relative;
-}
-
-.search-round{
-    margin-top: 23px;
-    margin-left: 150px;
-    margin-right: 25px;
-	border-radius:5px;
-    width: 400px;
-    height: 40px;
-}
-
-#sign-up{
-    font-weight: bolder;
-
-}
-
-/* Navbar styling End */
