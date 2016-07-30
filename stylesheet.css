@@ -9,7 +9,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
@@ -120,7 +120,7 @@ body {
 
 .bannerText h1 {
   font-size: 56px;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7), -2px -2px 3px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7), -1px -1px 3px rgba(0, 0, 0, 0.7);
 }
 
 .bannerText p {
@@ -151,7 +151,7 @@ body {
 .feed a:hover {
     text-decoration: none;
     font-weight:bold;
-    
+
 }
 
 .feed-item {
@@ -161,7 +161,7 @@ body {
    border-radius: 8px;
    margin:50px;
    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
-}  
+}
 
 .user-icon {
     float: left;
@@ -184,7 +184,7 @@ body {
     font-size: 20px;
     float: right;
     margin-top: 60px;
-    
+
 }
 
 .location-thumbnail {
@@ -204,7 +204,7 @@ body {
 .category {
     color:#a11bb9 !important;
     font-size: 12px;
-    
+
 }
 
 .location-post {
@@ -253,5 +253,3 @@ body {
 .footer .rh {
   text-align: right;
 }
-
-
