@@ -6,36 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<!--main_imgfade in out--->
-    <script type='text/javascript' src='js/jquery-3.1.0.min.js'></script>
-    <script type="text/javascript" src="js/jquery.innerfade.js"></script>
-    <script type="text/javascript">
-    	   $(document).ready(function(){
-    					$('#main_imgfade').innerfade({
-    						animationtype: 'fade',
-    						speed: 1000,
-    						timeout: 4000,
-    						type: 'sequence',
-    					    containerheight:'600px'
-    					});
-    			});
-    </script>
-    <!--/main_imgfade in out--->
+
 </head>
 <body>
 <!-- navbar start -->
-    <nav id="navbar">
+    <nav id="navbar" class="navbar">
         <div class="row">
          <div id="" class="nav-wrapper navbar col-xs-12">
            <img class="navbar-brand pull-*-left col-xs-3" id="logo" src="https://s3.ap-northeast-2.amazonaws.com/umapit/logowhite.png" />
             <div class= "header-search col-xs-4">
                 <form id = "search">
-                    <span><input  type="text" class="search-round" placeholder="Search Maps..." required></span>
+                    <span><input  type="text" class="search-round" placeholder="Search Maps..." required /></span>
                 </form>
             </div>
             <div class="header-right col-xs-4">
                 <ul class="nav navbar-nav">
-                    <li><a id ="mapview" href=""><img id="mapicon" src="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_map.png"></a></li>
+                    <li><a id ="mapview" href=""><img id="mapicon" src="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_map.png" /></a></li>
                     <li><button class="btn sign-button" href="">Sign In</button></li>
                     <li><button class="btn sign-button"  href=""><span id="sign-up">Sign Up</span></button></li>
                 </ul>
@@ -45,75 +31,74 @@
     </nav>
 <!-- navbar end -->
 <!--Banner Start-->
-<div class="container-fluid">
-  <div class = 'row'>
-    <div class='bannerText'>
-      <h1>Go Map Yourself!</h1>
-      <p>a search engine built by and for travelers like you</p>
+<div class = 'row'>
+  <div class='bannerText'>
+    <h1>Go Map Yourself!</h1>
+    <p>a search engine built by and for travelers like you</p>
   </div>
   <!--Rotating banner images start-->
-  <div class="m_fade">
-     <ul id="main_imgfade">
-           <li>
-             <img src="https://s3.ap-northeast-2.amazonaws.com/umapit/main_img01.jpg" alt="umapit" />
-           </li>
-           <li>
-             <img src="https://s3.ap-northeast-2.amazonaws.com/umapit/main_img02.jpg" alt="umapit" />
-           </li>
-         </ul>
-       </div>
-  <!--rotating banner images finish-->
-  </div>
-  <!--Banner End-->
-  <!-- User Feed Start --->
-  <div class="row">
-      <div class="feed col-xs-12">
-          <div class="feed-item col-xs-3">
-              <img class="user-icon" src="https://s3.ap-northeast-2.amazonaws.com/umapit/user_pic.png" />
-              <a class="user-name" href="">Stephen Mayeux</a>
-              <a class="location-name">Subway in PNU</a>
-              <img class="location-thumbnail img-responsive" src="https://s3.ap-northeast-2.amazonaws.com/umapit/img_user02.jpg">
-              <p  class="about-post"><span class ="time-stamp">45 mins ago</span> to <a class="category" href="">Restaurants</a> in
-                  <a class="location-post" href="">Busan</a>
-              </p>
-              <a class = "flag-post" href =""><img class="flag-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_flag.png"></a>
-              <a class="comment-post" href =""><img class="comment-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_chat.png"></a>
-
-          </div>
-          <div class="feed-item col-xs-3">
-                  <img class="user-icon" src="https://s3.ap-northeast-2.amazonaws.com/umapit/user_pic.png" />
-                  <a class="user-name" href="">Stephen Mayeux</a>
-                  <a class="location-name">Subway in PNU</a>
-                  <img class="location-thumbnail img-responsive" src="https://s3.ap-northeast-2.amazonaws.com/umapit/img_user02.jpg">
-                  <p  class="about-post"><span class ="time-stamp">45 mins ago</span> to <a class="category" href="">Restaurants</a> in
-                      <a class="location-post" href="">Busan</a>
-                  </p>
-                  <a class = "flag-post" href =""><img class="flag-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_flag.png"></a>
-                  <a class="comment-post" href =""><img class="comment-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_chat.png"></a>
-          </div>
-          <div class="feed-item col-xs-3">
-               <img class="user-icon" src="https://s3.ap-northeast-2.amazonaws.com/umapit/user_pic.png" />
-              <a class="user-name" href="">Stephen Mayeux</a>
-              <a class="location-name">Subway in PNU</a>
-              <img class="location-thumbnail img-responsive" src="https://s3.ap-northeast-2.amazonaws.com/umapit/img_user02.jpg">
-              <p  class="about-post"><span class ="time-stamp">45 mins ago</span> to <a class="category" href="">Restaurants</a> in
-                  <a class="location-post" href="">Busan</a>
-              </p>
-              <a class = "flag-post" href =""><img class="flag-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_flag.png"></a>
-              <a class="comment-post" href =""><img class="comment-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_chat.png"></a>
-          </div>
-      </div>
-  </div>
-  <!-- User Feed End --->
-  <!--Footer Start-->
-      <div class='row footer'>
-        <span class='col-xs-6 cr'>&#169 2016 uMAPiT Team</span>
-        <span class='col-xs-6 rh'>
-          <a href='url' target='_blank'>Legal</a> | <a href='url' target='_blank'>Privacy</a> | <a href='url' target='_blank'>Contact</a>
-        </span>
-      </div>
-      <!--Footer End-->
+    <div class="bannerwrapper"></div>
+     <div class="m_fade">
+        <ul id="main_imgfade">
+         <li>
+           <img class="banner-image col-xs-12" src="https://s3.ap-northeast-2.amazonaws.com/umapit/main_img02.jpg" alt="umapit" />
+         </li>
+       </ul>
+     </div>
+<!--rotating banner images finish-->
 </div>
+<!--Banner End-->
+
+<!-- User Feed Start --->
+
+<div class="row">
+    <div class="feed col-xs-12">
+        <div class="feed-item col-xs-3">
+            <img class="user-icon" src="https://s3.ap-northeast-2.amazonaws.com/umapit/user_pic.png" />
+            <a class="user-name" href="">Stephen Mayeux</a>
+            <a class="location-name">Subway in PNU</a>
+            <img class="location-thumbnail img-responsive" src="https://s3.ap-northeast-2.amazonaws.com/umapit/img_user02.jpg" />
+            <p  class="about-post"><span class ="time-stamp">45 mins ago</span> to <a class="category" href="">Restaurants</a> in
+                <a class="location-post" href="">Busan</a>
+            </p>
+            <a class = "flag-post" href =""><img class="flag-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_flag.png"/></a>
+            <a class="comment-post" href =""><img class="comment-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_chat.png" /></a>
+
+        </div>
+        <div class="feed-item col-xs-3">
+                <img class="user-icon" src="https://s3.ap-northeast-2.amazonaws.com/umapit/user_pic.png" />
+                <a class="user-name" href="">Stephen Mayeux</a>
+                <a class="location-name">Subway in PNU</a>
+                <img class="location-thumbnail img-responsive" src="https://s3.ap-northeast-2.amazonaws.com/umapit/img_user02.jpg" />
+                <p  class="about-post"><span class ="time-stamp">45 mins ago</span> to <a class="category" href="">Restaurants</a> in
+                    <a class="location-post" href="">Busan</a>
+                </p>
+                <a class = "flag-post" href =""><img class="flag-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_flag.png" /></a>
+                <a class="comment-post" href =""><img class="comment-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_chat.png" /></a>
+        </div>
+        <div class="feed-item col-xs-3">
+             <img class="user-icon" src="https://s3.ap-northeast-2.amazonaws.com/umapit/user_pic.png" />
+            <a class="user-name" href="">Stephen Mayeux</a>
+            <a class="location-name">Subway in PNU</a>
+            <img class="location-thumbnail img-responsive" src="https://s3.ap-northeast-2.amazonaws.com/umapit/img_user02.jpg" />
+            <p  class="about-post"><span class ="time-stamp">45 mins ago</span> to <a class="category" href="">Restaurants</a> in
+                <a class="location-post" href="">Busan</a>
+            </p>
+            <a class = "flag-post" href =""><img class="flag-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_flag.png" /></a>
+            <a class="comment-post" href =""><img class="comment-icon" src ="https://s3.ap-northeast-2.amazonaws.com/umapit/icon_chat.png" /></a>
+        </div>
+    </div>
+</div>
+<!-- User Feed End --->
+<!--Footer Start-->
+    <div class='row footer'>
+      <span class='col-xs-4 cr'>&#169; 2016 uMAPiT Team</span>
+      <p class='col-xs-4 cc'>Landing image courtesy <a href ="http://www.anujmadan.com/">www.anujmadan.com</a></p>
+      <span class='col-xs-4 rh'>
+        <a href='url' target='_blank'>Legal</a> | <a href='url' target='_blank'>Privacy</a> | <a href='url' target='_blank'>Contact</a>
+      </span>
+    </div>
+    <!--Footer End-->5
 
 </body>
 
