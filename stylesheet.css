@@ -56,7 +56,7 @@ body {
     margin-top:-20px;
     margin-left:100px;
     padding-left:100px;
-    margin: 0 auto;	
+    margin: 0 auto;
 }
 
 ul {
@@ -104,15 +104,21 @@ ul {
 
 .sign-button {
   background-color: #03cae9;
-  color: white;
-  float:right;
+  color: #797777;
+  float: right;
   margin: 27px 10px;
   border-radius: 5px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
-.sign-button:hover {
-    color: #555555;
+
+.in {
+  color: white;
 }
+
+.up {
+  background-color: #ade73a;
+}
+
 /* Navbar styling End */
 
 /* Banner Styling Start */
@@ -146,14 +152,14 @@ ul {
 .m_fade ul {
 	list-style: none;
 }
- 
+
 .bannerwrapper {
     width: 100%;
-    
+
 }
 .bannerwrapper img{
     width: 100%;
-    
+
 }
 /*User Feed Styling Start*/
 .feed {
